@@ -1,0 +1,5 @@
+t = (10, 20, 30)
+temp = list(t)
+temp.insert(1, 15)
+t = tuple(temp)
+print(t)
